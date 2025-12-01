@@ -1,0 +1,23 @@
+{
+  "name": "rmmz-game",
+  "main": "index.html",
+  "chromium-args": "--force-color-profile=srgb",
+  "window": {
+    "title": "Fantasy of Dream",
+    "width": 1110,
+    "height": 624,
+    "position": "center",
+    "icon": "icon/icon.png"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}
